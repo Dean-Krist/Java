@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Program1 {
+
+	public static void main(String[] args) 
+	
+	{  
+		
+		Scanner scan= new Scanner(System.in);   
+		
+		System.out.print("How many Gallons: ");  
+		int num1 = scan.nextInt();  
+		
+		
+		double ans = num1 * 3.7854;  
+		System.out.println("There are " + ans + " litters in " + num1 + " Gallons" );  
+	}  
+	
+}  
+
