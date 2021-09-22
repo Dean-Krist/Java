@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Program2 {
+
+	public static void main(String[] args) 
+	
+	{  
+		
+		Scanner scan= new Scanner(System.in);   
+		
+		System.out.print("How many Hours: ");  
+		int num1 = scan.nextInt(); 
+		int pro1 = num1 * 3600;
+
+		System.out.print("How many Minutes: ");  
+		int num2 = scan.nextInt();
+		int pro2 = num2 * 60;
+		
+		System.out.print("How many Seconds: ");  
+		int num3 = scan.nextInt();
+		
+		
+		int ans = pro1 + pro2 + num3;  
+		System.out.println("There are " + ans + " seconds in " + num1 + ": " + num2 + ": " + num3);  
+	}  
+	
+}  
