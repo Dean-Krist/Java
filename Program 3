@@ -1,0 +1,49 @@
+import java.util.Scanner;
+
+public class Program3 {
+
+	public static void main(String[] args) 
+	
+	{  
+		
+		Scanner scan= new Scanner(System.in);   
+		
+		System.out.print("Enter First Number: ");  
+		int num1 = scan.nextInt(); 
+		
+		System.out.print("Enter Second Number: ");  
+		int num2 = scan.nextInt();
+
+		System.out.print("Symbol you would like to use?\n");  
+		System.out.print("Enter 1 if you want to Add \n");  
+		System.out.print("Enter 2 if you want to Subtract \n"); 
+		System.out.print("Enter 3 if you want to Multiply \n");
+		System.out.print("Enter 4 if you want to Divide \n: ");
+		int symbol = scan.nextInt();
+		
+		
+		
+		
+			if(symbol == 1) {
+				int ans = num1 + num2;
+				System.out.print("The sum of " + num1 + " and " + num2 + " is " + ans);  
+			}
+			
+			else if(symbol == 2) {
+				int ans = num1 - num2;
+				System.out.print("The difference between " + num1 + " and " + num2 + " is " + ans);  
+			}
+			
+			else if(symbol == 3) {
+				int ans = num1 * num2;
+				System.out.print("The product between " + num1 + " and " + num2 + " is " + ans);  
+			}
+			
+			else if(symbol == 4) {
+				int ans = num1 / num2;
+				int rem = num1 % num2;
+				System.out.print("The qoutient of " + num1 + " and " + num2 + " is " + ans + " with the remainder of " + rem);  
+			}
+	}  
+	
+}  
