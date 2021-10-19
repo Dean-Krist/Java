@@ -1,0 +1,19 @@
+
+public class Program5 {
+
+	public static void main(String[] args) 
+	
+	{  
+		int x=1, y;
+		
+		 System.out.println("2 to the power of 0 is 1");  
+		 do
+		 {
+			 y = 2 * x;
+			 System.out.println("2 to the power of " + x + " is " + y);  
+		 x++;
+		 }
+		 
+		 while(x<=9);
+		 }
+		 }
