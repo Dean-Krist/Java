@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Program7 {
+
+	public static void main(String[] args) {
+		Scanner scan= new Scanner(System.in);   
+		
+		System.out.print("Enter a whole number: ");  
+		int num = scan.nextInt();
+		
+		System.out.print("The Binary of the number " + num + " is ");
+		System.out.println(Integer.toBinaryString(num));  
+
+	}
+
+}
